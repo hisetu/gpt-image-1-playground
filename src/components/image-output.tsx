@@ -104,12 +104,12 @@ export function ImageOutput({
                         />
                     ) : (
                         <div className='text-center text-white/40'>
-                            <p>Error displaying image.</p>
+                            <p>顯示圖片時發生錯誤。</p>
                         </div>
                     )
                 ) : (
                     <div className='text-center text-white/40'>
-                        <p>Your generated image will appear here.</p>
+                        <p>您生成的圖片將顯示在此處。</p>
                     </div>
                 )}
             </div>
@@ -167,7 +167,7 @@ export function ImageOutput({
                         showCarousel && viewMode === 'grid' ? 'invisible' : 'visible'
                     )}>
                     <Send className='mr-2 h-4 w-4' />
-                    Send to Edit
+                    送往編輯
                 </Button>
             </div>
         </div>
