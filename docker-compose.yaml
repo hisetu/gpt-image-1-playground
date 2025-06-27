@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  gpt-playground:
+    build: .
+    ports:
+      - "3099:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped
